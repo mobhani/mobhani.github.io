@@ -1,5 +1,5 @@
 var textarea = $('.term');
-var speed = 64; //Writing speed in milliseconds
+var speed = 32; //Writing speed in milliseconds
 var text = 'sh mobhani_website.sh';
 
 var i = 0;
@@ -51,6 +51,12 @@ function feedbacker() {
       }
     },time);
 }
+
+
+
+/*setTimeout(function(){
+document.getElementById('construction_text').style.visibility = "visible";
+},8000);*/
 
 var output = [
   "CPU0 microcode updated early to revision 0x1b, date = 1998-02-23",
