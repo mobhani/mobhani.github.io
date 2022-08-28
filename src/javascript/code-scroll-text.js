@@ -1,5 +1,5 @@
 var textarea = $('.term');
-var speed = 32; //Writing speed in milliseconds
+var speed = 16; //Writing speed in milliseconds
 var text = 'sh mobhani_website.sh';
 
 var i = 0;

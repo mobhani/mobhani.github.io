@@ -57,6 +57,7 @@ pre {
 
 .line-1
 {
+
     position: relative;
     top: 50%;
     width: 24em;
@@ -67,17 +68,19 @@ pre {
     white-space: nowrap;
     overflow: hidden;
     transform: translateY(-50%);
+    animation-delay: 10s;
+
 }
 
 /* Animation */
 .anim-typewriter
 {
+
+
   animation: typewriter 4s steps(64) 1s 1 normal both,
              blinkTextCursor 500ms steps(32) infinite normal;
-}
-
-.wip_message{
-  animation-delay: 10s;
+             transition-timing-function: ease-in-out;
+ animation-delay: 10s;
 }
 
 @keyframes typewriter
